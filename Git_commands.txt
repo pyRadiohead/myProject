@@ -1,0 +1,17 @@
+git init - creates a new Git repository
+git status - inspects the contents of the working directory and staging area
+git add - adds files from the working directory to the staging area
+git diff - shows the difference between the working directory and the staging area
+git commit - permanently stores file changes from the staging area in the repository
+git log - shows a list of all previous commits
+git show HEAD - show most recent commit
+git checkout HEAD - discard changes in working area
+git reset HEAD  - Unstages file changes in the staging area
+git reset SHA_keys - Resets to a previous commit in your commit history.
+git branch - shows all branches
+git checkout BRANCH_NAME - switching to another branch
+git merge BRANCH_NAME - adds all fixes from BRANCH_NAME to a current branch
+git branch -d branch_name - deleting a branch
+git branch branch_name: Creates a new branch.
+
+git remote -v  - list of a Git project's remotesj
